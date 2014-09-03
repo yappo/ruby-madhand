@@ -1,0 +1,4 @@
+table_create  user --flags TABLE_PAT_KEY --key_type UInt8
+column_create user name COLUMN_SCALAR ShortText
+column_create user url  COLUMN_SCALAR ShortText
+

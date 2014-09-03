@@ -1,0 +1,4 @@
+table_create  madhand_status --flags TABLE_PAT_KEY --key_type UInt8
+column_create madhand_status pos COLUMN_SCALAR UInt64
+
+load --table madhand_status --input_type json --values [{\"_key\":1,\"pos\":0}]
